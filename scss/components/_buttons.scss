@@ -1,0 +1,64 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.btn-cta {
+    position: relative;
+    padding: 0.9375rem 4.75rem 0.9375rem 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    border: 0.1rem solid rgba($white, 0.6);
+
+    span{
+        position: absolute;
+        background-color: $white;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 17%;
+        right: 5px;
+        transform: traslateY(-50%);
+        border-radius: 50%;
+        margin-right: 0.5rem;
+
+        i{
+            color: $secondary;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+
+    }
+
+    &:hover{
+        @include gradient;
+        color: white;
+    }
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-lm{
+    color: $primary;
+    
+    span{
+        background-color: $primary;
+        
+        i{
+            color: $white;
+        }
+    }
+
+    &:hover{
+        span{
+            background-color: $white;
+            transform: traslateY(-50%);
+            @include transitionProperty;
+            i{
+                color: $primary;
+                @include transitionProperty;
+
+            }
+        }
+
+    }
+}

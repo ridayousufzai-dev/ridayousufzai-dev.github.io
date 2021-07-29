@@ -1,69 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Front-end Development</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Designer in Riyadh, Saudi Arabia</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo/RY-logo-white.png" alt="logo image" width="70" height="70">
+              <!-- <img src="images/RY-logo-indigo.png" alt="RY-brand-log" width="70" height="70"> -->
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="skills.html">Skills</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+      <!-- INTRO SECTION -->
+      <section id="home" class="intro-section">
+          <div class="container">
+              <div class="row align-items-center text-white">
+                  <!-- CONTENT FOR THE INTRO -->
+                  <div class="col-md-6 intros">
+                      <h1 class="display-2">
+                          <span class="display-2--intro">Hi! I'm Rida</span>
+                          <span class="display-2--description lh-base">A Web designer/developer based in Riyadh, Saudi Arabia with a love to creatively design engaging websites for users that realize the vision of the stakeholders.
+                          </span>
+                      </h1>
+                      <button type="button" class="btn btn-outline-light btn-lg btn-cta" onclick="document.location='#contact'">Get in Touch
+                          <span>
+                              <i class="fas fa-arrow-right"></i>
+                          </span>
+                      </button>
+                  </div>
+                  <!-- CONTENT FOR THE ART COLUMN - RIGHT -->
+                  <div class="col-md-6 intros text-end">
+                      <div class="video-box">
+                          <img src="images/arts/intro-section-illustration.png" alt="girl using worldwide web sitting on globe" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L48,149.3C96,171,192,213,288,208C384,203,480,149,576,133.3C672,117,768,139,864,176C960,213,1056,267,1152,245.3C1248,224,1344,128,1392,80L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </section>
 
-	<header>
-		<h1>All about the Journey</h1>
+      <!-- COMPANIES SECTION -->
+      <section id="companies" class="companies">
+        <div class="container">
+          <div class="row text-center">
+            <h3 class="fw-bold lead mb-3">Worked with companies like</h3>
+            <div class="heading-line mb-5"></div>
+          </div>
+        </div>
+        <!-- COMPANIES -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="images/companies/nusuki-Logo.png" alt="nusuki-logo" title="nusuki-logo" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="images/companies/ideation-logo.png" alt="ideation-logo" title="ideation-logo" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="images/companies/tethkar-logo.png" alt="tethkar-logo" title="tethkar-logo" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="companies__logo-box shadow-sm"><img src="images/companies/derma-logo.png" alt="derma-logo" title="derma-logo" class="img-fluid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<p>In this page we will talk about the process of learning Front-end Development and <br> discover the roadmap to becoming a Successful Front-end Developer.</p>
-	</header>
+      <!-- THE SERVICES SECTION -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold">My Services</h1>
+            <div class="heading-line mb-1"></div>
+          </div>
+        
 
-	<section>
-		<article>
-			<h2>Introduction</h2>	
-			<p>HTML makes structuring the web page easier with its semantic elements that are used to describe meaning to the HTML Parser.</p>
+        <!-- DESCRIPTION CONTENT -->
+        
+          <div class="row pt-2 pb-2 mt-0 mb-3">
+            <div class="col-md-6 border-right">
+              <div class="bg-white p-3">
+                <h2 class="fw-bold text-capitalize text-center">
+                  From initial design to deployment anywhere anytime
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 text-start">
+                <p class="fw-light">
+                  My design philosophy is simple: creatively design the UI/UX of thy website that users love, engage and interact with, meanwhile fulfilling the business needs of the stakeholders.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT FOR SERVICES -->
+        <div class="container">
+
+          <!-- CORPORATE WEBSITE DEVELOPMENT-->
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <div class="icon d-block fas fa-briefcase"></div>
+                <h3 class="display-3--title mt-1">Basic Website Design</h3>
+                <p class="lh-lg">
+                  Modern and trendy web design for your startup or small business to connect your brand with your customers. 
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur repellendus dicta, non alias praesentium ipsum vitae, magni tempore enim totam assumenda facere corrupti saepe. Suscipit reiciendis quae nihil nisi. -->
+                </p>
+                <button type="button" class="btn btn-outline-light btn-lg btn-cta border-secondary btn-lm" onclick="document.location='#contact'">Learn more
+                  <span>
+                      <i class="fas fa-arrow-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+              <div class="services__pic">
+                <img src="images/services/Basic-Web.png" alt="Basic website illustration" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!-- WORDPRESS WEBSITE DEVELOPMENT -->
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+              <div class="services__pic">
+                <img src="images/services/CMS-Web.png" alt="Wordpress website illustration" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <div class="icon d-block fab fa-wordpress"></div>
+                <h3 class="display-3--title mt-1">CMS Website Development</h3>
+                <p class="lh-lg">
+                  Integrating large volumes of data that needs regular updates through content management system (CMS) with modern and minimalist design patterns to best suit the business needs.
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur repellendus dicta, non alias praesentium ipsum vitae, magni tempore enim totam assumenda facere corrupti saepe. Suscipit reiciendis quae nihil nisi. -->
+                </p>
+                <button type="button" class="btn btn-outline-light btn-lg btn-cta border-secondary btn-lm" onclick="document.location='#contact'">Learn more
+                  <span>
+                      <i class="fas fa-arrow-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- E-COMMERCE WEBSITE DEVELOPMENT -->
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+              <div class="services__content">
+                <div class="icon d-block fas fa-shopping-cart"></div>
+                <h3 class="display-3--title mt-1">Ecommerce Website Development</h3>
+                <p class="lh-lg">
+                  Fast, secure e-commerce solutions for businesses planning to sell online with engaging design to hook the customers for long.
+                  
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur repellendus dicta, non alias praesentium ipsum vitae, magni tempore enim totam assumenda facere corrupti saepe. Suscipit reiciendis quae nihil nisi. -->
+                </p>
+                <button type="button" class="btn btn-outline-light btn-lg btn-cta border-secondary btn-lm" onclick="document.location='#contact'">Learn more
+                  <span>
+                      <i class="fas fa-arrow-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+              <div class="services__pic">
+                <img src="images/services/E-comm-Web.png" alt="E-COMMERCE website illustration" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- THE TESTIMONIALS -->
+      <section id="testimonials" class="testimonials">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,128C384,128,480,192,576,224C672,256,768,256,864,229.3C960,203,1056,149,1152,138.7C1248,128,1344,160,1392,176L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div class="container">
+          <div class="row text-center text-white">
+            <h1 class="display-3 fw-bold">Testimonials</h1>
+            <hr style="width:100px; height: 3px;" class="mx-auto">
+            <p class="lead pt-1">What others are saying</p>
+          </div>
+
+          <!-- CAROUSEL CONTENT -->
+          <div class="row align-items-center">
+            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              
+              <div class="carousel-inner">
+                <!-- CAROUSEL ITEM 1 -->
+                <div class="carousel-item active">
+                  <!-- testimonials card -->
+                  <div class="testimonials__card">
+                    <p class="lh-lg">
+                      <i class="fas fa-quote-left"></i>
+                      Rida is a professional Visual Designer, who can think out of the box with unlimited passion for creativity. She's is very intelligent, hardworking, honest and result oriented person. I highly recommend Rida for employment as she will be a great asset to any organization.<em>[LinkedIn]</em>
+                      <i class="fas fa-quote-right"></i>
+                      <div class="ratings p-1">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </p>
+                  </div>
+                  <!-- client picture -->
+                  <div class="testimonials__picture">
+                    <img src="images/Testimonials/Avatar-female.png" alt="client-1 pitcure" class="rounded-circle img-fluid">
+                  </div>
+                  <!-- client name & role -->
+                  <div class="testimonials__name">
+                    <h3>Mrs. B. Shalabi</h3>
+                    <p class="fw-light">General Manager at Ideation</p>
+                  </div>
+                </div>
+              </div>
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+            </div>
+          </div>
+
+        </div> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,128C384,128,480,192,576,224C672,256,768,256,864,229.3C960,203,1056,149,1152,138.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </section>
+
+      
+      <!-- START SECTION 7 - THE PORTFOLIO -->
+      <section id="portfolio" class="portfolio mt-1" >
+        <div class="container">
+          <div class="row text-center mt-5">
+            <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+            <div class="heading-line"></div>
+            <p class="lead">
+              <blockquote>
+                <p>Design is not just what it looks like and feels like. Design is how it works.</p>
+                <cite>Steve Jobs</cite>
+              </blockquote>
+            </p>
+          </div>
+          <!-- START THE PORTFOLIO ITEMS -->
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="portfolio-box shadow">
+                <img src="images/portfolio/derma-clinic.png" alt="Derma Clinic website image" title="Derma Clinic website" class="img-fluid"></ig>
+                <div class="portfolio-info">
+                  <div class="caption">
+                    <h4>Derma Clinic Website</h4>
+                    <p>Wordpress Website </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="portfolio-box shadow">
+                <img src="images/portfolio/nusuki.png" alt="Nusuki Hadaya Website" title="Nusuki Hadaya Website" class="img-fluid"></ig>
+                <div class="portfolio-info">
+                  <div class="caption">
+                    <h4>Nusuki Hadaya Website</h4>
+                    <p>E-Commerce Website </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- THE FAQ SECTION -->
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+            <div class="heading-line"></div>
+            <p class="lead">frequently asked questions, get knowledge before hand</p>
+          </div>
+
+          <!-- ACCORDIAN CONTENT -->
+          <div class="row mt-5 mb-lg-5">
+            <div class="col-md-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- ACCORDIAN ITEM 1 -->
+                <div class="accordion-item shadow mb-3">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What is the process?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      When you request for a project, it follows following phases:
+                      <ol>
+                        <li><b>Planning</b> - It begins with disucssing aspects of the web design; its purpose, users & their information and information about stakeholders.</li>
+                        <li><b>Analysis</b> - The information that is useful to the user is analyzed.</li>
+                        <li><b>Design & Development</b> - The UI/UX (user interface & experience), the layout of the website i.e. wireframes, mockeup is designed and approved by you which is then coded into a website. </li>
+                        <li><b>Testing</b> - The website is tested against the content, functions, information & navigation planned out in the earlier phases.</li>
+                        <li><b>Implementation & Maintenance</b> - The website is launched successfully. Planning of how website and its content will be updated will also be decided in this phase.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <!-- ACCORDIAN ITEM 2 -->
+                <div class="accordion-item shadow mb-3">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      What are your charges?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Every idea is different and so is every project. Prices vary upon the days of work, functionality & features and complexity of project. So I try to charge per project a fee that is affordable.
+                    </div>
+                  </div>
+                </div>
+                <!-- ACCORDIAN ITEM 3 -->
+                <div class="accordion-item shadow mb-3">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Are you open to job opportunities?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Yes, I love to work individually as well as in a team, I would love to work with people who are obessed about good quality websites just like me.
+                    </div>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- START SECTION 8 - GET STARTED -->
+      <section id="contact" class="get-started" >
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+            <div class="heading-line"></div>
+            <p class="lh-lg">Have a great idea in your mind? Let's discuss it over a cup of coffee. 
+              <i class="fa fa-coffee" style="color: #896A9E;">
+
+            </i>
+          </p>
+          </div>
+          <!-- START THE CTA CONTENT -->
+          <div class="row text-white">
+            <div class="col-12 col-lg-6 gradient shadow p-3">
+              <div class="cta-info w-100">
+                <h4 class="display-4 fw-bold">Let's discuss great ideas</h4>
+                <p class="lh-lg">
+                  Have a story in mind, that needs a voice? let's start discussing new possibilities.
+                </p>
+                <h3 class="display-3--brief">What are the next steps?</h3>
+                <ul class="cta-info__list">
+                  <li>We'll discuss it together</li>
+                  <li>We'll gather its requirement</li>
+                  <li>We'll begin the work</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 bg-white shadow p-3">
+              <div class="form w-100 pb-2">
+                <h4 class="display-3--title mb-5">Start your project</h4>
+                <form action="#" class="row">
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input type="text" placeholder="First Name" id="inputFirstName" class="form-control shadow form-control-lg">
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input type="text" placeholder="Last Name" id="inputLastName" class="form-control shadow form-control-lg">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <input type="email" placeholder="Email address" id="inputEmail" class="form-control shadow form-control-lg">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <textarea type="message" placeholder="Message" id="message" rows="8" class="form-control shadow form-control-lg"></textarea>
+                  </div>
+                  <div class="text-center d-grid mt-1">
+                    <button type="button" class="btn btn-primary pt-3 pb-3">
+                      Submit
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- START SECTION 9 - THE FOOTER   -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <!-- CONTENT FOR THE MOBILE NUMBER -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  <path d="M15 7a2 2 0 0 1 2 2" />
+                  <path d="M15 3a6 6 0 0 1 6 6" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">  +966 570692667</a>
+                <p class="contact-box__info--subtitle">  Sun-Thurs 8am-4pm</p>
+              </div>
+            </div>
+            <!-- CONTENT FOR EMAIL -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                  <line x1="3" y1="19" x2="9" y2="13" />
+                  <line x1="15" y1="13" x2="21" y2="19" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">ridayousufzai-dev@gmail.com</a> 
+                <!-- &#8209; -->
+                <p class="contact-box__info--subtitle">Mention Subject in email</p>
+              </div>
+            </div>
+            <!-- CONTENT FOR LOCATION -->
+            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+              <div class="contact-box__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <line x1="18" y1="6" x2="18" y2="6.01" />
+                  <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                  <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                  <line x1="9" y1="4" x2="9" y2="17" />
+                  <line x1="15" y1="15" x2="15" y2="20" />
+                </svg>
+              </div>
+              <div class="contact-box__info">
+                <a href="" class="contact-box__info--title">Riyadh, KSA</a>
+                <p class="contact-box__info--subtitle">13782, RYD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- START THE SOCIAL MEDIA CONTENT -->
+        <div class="footer-sm" style="background-color: #212121;">
+          <div class="container">
+            <div class="row py-4 text-center text-white">
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                Connect with me on social media
+              </div>
+              <div class="col-lg-7 col-md-6">
+                <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-behance-square"></i></a> -->
+                <a href="https://www.linkedin.com/in/rida-yousufi/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://ridayousufzai-dev.github.io/"><i class="fab fa-github"></i></a>
+                <a href="https://www.behance.net/ridayousufzai"><i class="fab fa-behance"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- START THE CONTENT FOR THE COMPANY INFO -->
+        <div class="container mt-5">
+          <div class="row text-white justify-content-center mt-3 pb-3">
+            <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+              <h5 class="text-capitalize fw-bold">About Me</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <p class="lh-lg">
+                As a web designer/developer, I love my job and look forward to it each day with more hard work, improved performance, broader learning curve, renewed commitment, faith and passion with a strong self-drive and motivation to deliver my projects with sincerity.
+
+              </p>             
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Skills</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>UI/UX Design</li>
+                <li>Branding</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Tools</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>WordPress</li>
+                <li>WooCommerce</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Technologies</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <!-- <li>jQuery</li>
+                <li>MySQL/PHP</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- START THE COPYRIGHT INFO -->
+        <div class="footer-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row text-center text-white">
+              <div class="col-12">
+                <div class="footer-bottom__copyright">
+                  &copy; Copyright 2021 | <a href="#">Rida Yousufzai</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- BACK TO TOP BUTTON -->
+      <a href="" class="shadow btn-primary back-to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
 
 
-			<h2>Technologies</h2>
-			<p>Techologies that a Front-End Develoer should master are listed below (Try Mastering them in the order):</p>
-			<ol>
-				<li>Birds-eye view understanding of how internet works, Browsers work, HTTP, DNS, Hosting, URL, Domains, Server/hosting</li>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>DOM</li>
-				<li>User-Interface/Interaction/Experience/Usability Design</li>
-				<li>CLI-Command Line</li>
-				<li>Practice of Software Engineering - (App Design/Architecture, templates, Git, testing, monitoring, automating, code quality, development methodologies)</li>
-				<li>Opinionated/customized Toolbox (Webpack, React, Mobx)</li>
-				<li>Node.js</li>	
-			</ol>
-		</article>
-	
 
-		 <aside> 
-		 	<div class="aside-content">		 	
-				<h3>My favorite Guide Website</h3>
-				<p>The website I recommend for learning Front-end Development is <a href="https://frontendmasters.com/" target="_blank">Front-End Masters</a></p>
-			</div>
-
-			<div class="aside-content">	
-				<h3>Native Web Developer</h3>
-				<p>A naive web developer without the knowledge and skills mentioned above looks like this:</p>
-				<img src="http://placekitten.com/200/300" alt="A cute little kitten." title="Cute little kitten">
-			</div>
-
-		</aside>
-
-	</section>
-
-	<footer>
-		<p>This is the footer of the website. &#169; Copyright 2020</p>
-	</footer>
- 
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
